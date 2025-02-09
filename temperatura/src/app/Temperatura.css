@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3e6f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Contenedor principal */
+  .converter-container {
+    background-color: #356e33;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    width: 500px;
+  }
+  
+  h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor de entrada */
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Botón de conversión */
+  button {
+    padding: 10px 20px;
+    background-color: #c8ff00;
+    color: rgb(10, 9, 9);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+    margin-bottom: 1rem;
+  }
+  
+  .clear-btn {
+    margin-bottom: 1rem;
+    margin-top: 10px; /* Añadido margen superior para separar los botones */
+  }
+
+  button:hover {
+    background-color: #572753;
+  }
+  
+  /* Resultado */
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f7f6f6;
+  }
+  
+  

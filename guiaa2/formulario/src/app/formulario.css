@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f309ad;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor del formulario */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilo del formulario */
+  .login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Título del formulario */
+  .login-form h2 {
+    color: #6a4c9c;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos de los campos de entrada */
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    color: #6a4c9c;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d1a1d1;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Estilo del botón de inicio de sesión */
+  .login-btn {
+    background-color: #9b6fdb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-btn:hover {
+    background-color: #7a4dbf;
+  }
+  
+  /* Estilo del mensaje de error */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo del mensaje de bienvenida */
+  .welcome-message {
+    text-align: center;
+  }
+  
+  .welcome-message h2 {
+    color: #9b6fdb;
+    font-size: 24px;
+  }
+  
